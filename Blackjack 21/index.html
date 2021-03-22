@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Blackjack</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+       <!--img src="https://www.dafont.com/forum/attach/orig/1/2/127066.png" alt="Icono del Balckjack"-->>
+    </header>
+    <main>
+        <div class="text-center mt-4">
+            <button id="btnNuevo"  class="btn btn-secundary">Nuevo Juego</button>
+            <button id="btnPedir"  class="btn btn-secundary ml-4" disabled>Pedir Carta</button>
+            <button id="btnDetener" class="btn btn-secundary ml-4" disabled>Detenerse</button>
+            <button id="btnSalir" class="btn btn-secundary ml-4" disabled>Salir</button>
+        </div>
+        <div class="row container">
+            <div class="col">
+                <p>Jugador - <span>0</span></p>
+                <div id="cartas-jugador"></div>   
+            </div>
+        </div>
+        <div class="row container">
+            <div class="col">
+                <p>PC - <span>0</span></p>
+                <div id="cartas-pc"></div>
+            </div>
+        </div>
+    </main>
+    <script src="https://cdn.jsdelivr.net/npm/underscore@1.12.0/underscore-min.js"></script>
+    <script src="app.js"></script> 
+</body>
+</html>

@@ -1,0 +1,36 @@
+.logo {
+  width: 10px;
+  height: 10px;
+}
+
+header {
+  text-align: right;
+  background-image: url("https://www.itl.cat/pngfile/big/303-3030320_poker-wallpapers-poker.jpg");
+  background-repeat: repeat;
+  background-position: top;
+  background-size: cover;
+  margin: 0;
+}
+
+body {
+  margin: 0;
+  background-image: url("https://d3ltpfxjzvda6e.cloudfront.net/2014/09/25/wallpaper-cnc_10b15392.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+p {
+  color: white;
+  font-size: 40px;
+}
+
+.carta {
+  left: 100px;
+  position: relative;
+  width: 140px;
+  margin-left: -75px;
+}
+
+#cartas-jugador {
+  height: 250px;
+}

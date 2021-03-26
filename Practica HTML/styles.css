@@ -1,0 +1,48 @@
+.titulo {
+  text-align: center;
+  margin: 50px;
+}
+
+.circulo {
+  width: 200px;
+  height: 200px;
+  background-color: red;
+  transition: 2s;
+  margin: 10px;
+}
+
+.circulo:hover {
+  background-color: black;
+  border-radius: 50%;
+}
+
+.rectangulo {
+  width: 200px;
+  height: 200px;
+  background-color: darkcyan;
+  transition: 2s;
+  margin: 10px;
+}
+
+.rectangulo:hover {
+  background-color: seagreen;
+  width: 400px;
+}
+
+.triangulo {
+  width: 200px;
+  height: 200px;
+  background-color: violet;
+  transition: 2s;
+  margin: 10px;
+}
+
+.triangulo:hover {
+  background-color: white;
+  width: 0;
+  height: 0;
+  border-right: 100px solid transparent;
+  border-top: 100px solid transparent;
+  border-left: 100px solid transparent;
+  border-bottom: 100px solid #f0ad4e;
+}

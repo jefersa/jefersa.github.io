@@ -1,0 +1,13 @@
+body {
+  background-color: gray;
+}
+
+.cuadrado {
+  width: 200px;
+  height: 200px;
+  background-color: aqua;
+}
+
+.ocultar {
+  opacity: 0;
+}

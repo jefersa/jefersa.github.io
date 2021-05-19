@@ -1,0 +1,42 @@
+h1 {
+  text-align: center;
+}
+
+.contenedor {
+  width: 800px;
+  height: 800px;
+  background-color: aquamarine;
+  border: 3px solid black;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.cuadros {
+  display: flex;
+  height: 100px;
+  width: 100px;
+  margin: 10px;
+  background-color: brown;
+  border: 3px solid black;
+}
+
+div:nth-of-type(1) {
+  background-color: red;
+}
+
+div:nth-of-type(2) {
+  background-color: blue;
+}
+
+div:nth-of-type(3) {
+  background-color: green;
+}
+
+div:nth-of-type(4) {
+  background-color: yellow;
+}
+
+div:nth-of-type(5) {
+  background-color: orange;
+}

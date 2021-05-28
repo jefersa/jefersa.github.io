@@ -1,0 +1,40 @@
+.cuerpo {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+}
+
+.gradiente1 {
+  height: 200px;
+  width: 200px;
+  margin-right: 2%;
+  background: radial-gradient(rgb(0, 0, 0), rgb(177, 8, 8));
+}
+
+.gradiente2 {
+  height: 200px;
+  width: 200px;
+  margin-right: 2%;
+  background: linear-gradient(to bottom, rgb(0, 0, 0), rgb(177, 8, 8));
+}
+
+.gradiente3 {
+  height: 200px;
+  width: 200px;
+  margin-right: 2%;
+  background: linear-gradient(to right, rgb(0, 0, 0), rgb(177, 8, 8));
+}
+
+.gradiente4 {
+  height: 200px;
+  width: 200px;
+  margin-right: 2%;
+  background: repeating-linear-gradient(
+    -45deg,
+    rgb(0, 0, 0),
+    rgb(0, 0, 0) 5px,
+    rgb(177, 8, 8) 5px,
+    rgb(177, 8, 8) 10px
+  );
+}

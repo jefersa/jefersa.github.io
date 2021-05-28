@@ -1,0 +1,81 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+.contenedor {
+  height: 100vh;
+  width: 100%;
+  position: relative;
+  background-image: url("https://1.cms.s81c.com/sites/default/files/2020-04-02/weather-rain4.jpg");
+  background-position: center center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+
+.contenedor .buscador {
+  height: 60px;
+  width: 100%;
+  position: absolute;
+  left: 0;
+  top: 6%;
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
+}
+
+.contenedor input {
+  height: 50px;
+  width: 300px;
+  margin: 0 20px;
+  padding: 0 20px;
+  outline: none;
+  background: ;
+  font-size: 20px;
+  border-radius: 25px 10px;
+}
+
+.contenedor input[type="submit"] {
+  cursor: pointer;
+  width: 150px;
+}
+
+.iconoClima {
+  height: 300px;
+  width: 300px;
+  position: absolute;
+  top: 27%;
+  right: 15%;
+}
+
+.paisCiudad {
+  font-size: 70px;
+  position: absolute;
+  top: 40%;
+  left: 10%;
+}
+
+.temperatura {
+  font-size: 70px;
+  position: absolute;
+  top: 48%;
+  left: 10%;
+  bottom: ;
+}
+
+.descripcion {
+  font-size: 50px;
+  position: absolute;
+  top: 55%;
+  left: 10%;
+}
+
+.contenedor ul {
+  font-size: 25px;
+  position: absolute;
+  top: 63%;
+  left: 10%;
+  list-style: none;
+}
